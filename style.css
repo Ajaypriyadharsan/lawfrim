@@ -1,0 +1,229 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25vh;
+    padding: 10px 150px;
+    background-color: #58614e;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 55%;
+    margin-top: 20px;
+    /* margin-right: 115px; */
+}
+.navlinks li{
+    /* color: white; */
+    list-style-type: none;
+}
+.navlinks a{
+    color: white;
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 15px;
+}
+.navlinks a:hover{
+    color: white;
+}
+.herocontainer{
+    background-color: #e2e2e2;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+    /* padding: 0px 550px 0px 550px; */
+}
+.herosection{
+    /* width: 75%;/ */
+    background-color: #e9e9e9;
+    display: flex;
+    margin-top: 13px;
+    border: 3px solid white;
+    justify-content: space-between;
+    /* padding: 0px 50px 0px 60px; */
+}
+.hero{
+    align-items: center;
+    line-height: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+.hero h2{
+    font-weight: lighter;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #5a6a6a;
+    margin-top: 20px;
+}
+.hero h4{
+    font-family: 'Times New Roman', Times, serif;
+    color: #5a6a6a;
+    font-size: 30px;
+    font-weight: lighter;
+    width: 400px;
+}
+.hero h3{
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    color: #5a6a6a;
+    padding: 10px 50px;
+    width: 300px;
+    margin-left: 40px;
+}
+.para{
+    display: flex;
+    padding: 10px 100px;
+    background-color: #eeeeee;
+    padding-top: 30px;
+}
+.left{
+    /* border-right:2px dotted gray; */
+    padding-right: 30px;
+}
+.left h2{
+    color: #5a6a6a;
+    font-size: 30px;
+    font-weight: lighter;
+    /* margin-right: 150px; */
+    /* width: 500px; */
+    font-family: 'Times New Roman', Times, serif;
+}
+.left p{
+    line-height: 20px;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 22px;
+    padding: 0px 20px;
+    color: #5a6a6a;
+    width: 600px;
+    line-height: 2;
+}
+.right{
+    margin-left: 10px;
+}
+.right h3{
+    color: #5a6a6a;
+    font-family: 'Times New Roman', Times, serif;
+}
+.right p{
+    color: #5a6a6a;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    font-size: 17px;
+    width: 300px;
+    line-height: 2;
+}
+.right p1{
+    margin-left: 120px;
+}
+.cardcontainer{
+    width: 100%;
+    background-color: #e2e2e2;
+}
+.cardcontainer h2{
+    padding-top: 40px;
+    padding-left: 170px;
+}
+.cards{
+    padding: 10px 50px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 2rem;
+}
+.card img{
+    border: 3px solid white;
+}
+.card h3{
+    margin: 10px;
+    color: #5a6e6a;
+}
+.card p{
+    color: #5a6e6a;
+    margin-top: 10px;
+}
+.card button{
+    margin-top: 25px;
+    padding: 5px;
+    background-color: #666666;
+    margin-bottom: 30px;
+}
+.card button a{
+    text-decoration: none;
+    color: white;
+}
+.card button:hover{
+    background-color: rgb(38,36,36);
+}
+.boxcontainer{
+    width: 100%;
+    background-color: #d9d9d9;
+}
+.boxes{
+    display: flex;
+    padding:  30px 100px;
+    grid-template-columns: repeat(autofit,minmax(350px,1fr));
+    justify-content: space-between;
+    gap: 2rem;
+}
+.box{
+    border-right: 1px dotted gray;
+    margin-left: 10PX;
+}
+.box h3{
+    color: #5a6e6a;
+}
+.box p{
+    color: #5a6e6a;
+    font-size: 15px;
+    margin-top: 20px;
+    width: 300px;
+}
+.box button{
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #6b6b6b;
+}
+.box button a{
+    text-decoration: none;
+    color: white;
+}
+.box button:hover{
+    background-color: rgb(42, 38, 38);
+}
+.footcontainer{
+    background-color: #4f5843;
+    height: 6vh;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.credit{
+    color: black;
+    /* background-color: green; */
+    height: 5vh;
+    /* justify-content: center; */
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 400px;
+}
